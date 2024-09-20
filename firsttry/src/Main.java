@@ -58,7 +58,7 @@ public class Main{
         x = sc.nextInt();
 
         int result = binarysearch(arr,0,n-1,x);
-        if (result == 1)
+        if (result == -1)
             System.out.println("\nValue not found");
         else
             System.out.println("\nValue found at index " + result + "!");
